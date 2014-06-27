@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430C336B187096A200CEB97A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C336A187096A200CEB97A /* MapKit.framework */; };
+		430C33791870A5B800CEB97A /* Ronnies House.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33761870A5B800CEB97A /* Ronnies House.gpx */; };
+		430C337A1870A5B800CEB97A /* culver city.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33771870A5B800CEB97A /* culver city.gpx */; };
+		430C337B1870A5B800CEB97A /* MIddle of Ibiza.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33781870A5B800CEB97A /* MIddle of Ibiza.gpx */; };
+		4327B23F1890FFC200125839 /* Glass.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4327B23E1890E68B00125839 /* Glass.m4a */; };
+		438252A2185AEAE1005F25F8 /* AWSPersistenceDynamoDBIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C341A71851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.m */; };
+		4384DA2D18729B5F004E6284 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA2C18729B5F004E6284 /* Location.m */; };
+		4384DA2F187679B5004E6284 /* culver city2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4384DA2E187679B5004E6284 /* culver city2.gpx */; };
+		4384DA321878828C004E6284 /* LocationWDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA311878828C004E6284 /* LocationWDistance.m */; };
+		4384DA3C187BCC4D004E6284 /* SNSMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA3B187BCC4D004E6284 /* SNSMessenger.m */; };
+		4384DA43187D4E3A004E6284 /* Glass.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4384DA42187D4374004E6284 /* Glass.caf */; };
+		438C05811845C87E00859AE3 /* NearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05801845C87D00859AE3 /* NearbyViewController.m */; };
+		438C05841845C8AA00859AE3 /* NearbyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05831845C8AA00859AE3 /* NearbyCell.m */; };
+		438C058B1845DCE500859AE3 /* BeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C058A1845DCE500859AE3 /* BeamViewController.m */; };
+		438C05951846504C00859AE3 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05941846504C00859AE3 /* HistoryViewController.m */; };
+		438C0598184655AD00859AE3 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C0597184655AD00859AE3 /* HistoryCell.m */; };
+		438C059C184706C300859AE3 /* BTBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C059B184706C300859AE3 /* BTBroadcast.m */; };
+		438C059F1847099400859AE3 /* BTScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C059E1847099400859AE3 /* BTScan.m */; };
+		439053B9185B049B000E814E /* Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 439053B8185B049B000E814E /* Awesome.m */; };
+		439053BB185CF900000E814E /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439053BA185CF900000E814E /* AWSSNS.framework */; };
+		439053BD185E8E6C000E814E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439053BC185E8E6C000E814E /* AVFoundation.framework */; };
+		439053C1185E92F6000E814E /* blring.caf in Resources */ = {isa = PBXBuildFile; fileRef = 439053C0185E9107000E814E /* blring.caf */; };
+		439053C918603085000E814E /* spark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 439053C818603085000E814E /* spark2.png */; };
+		439053CB18603BAA000E814E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 439053CA18603BAA000E814E /* spark.png */; };
+		43A2550C18640A4B005FA885 /* You.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 43A2550B18640A4B005FA885 /* You.mp4 */; };
+		43B2FB5218A376F000BDE325 /* Barcelona.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 43B2FB5118A376F000BDE325 /* Barcelona.gpx */; };
+		43C34069184F061600075333 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C34068184F061600075333 /* Tools.m */; };
+		43D8746618A47C6C004BC8A1 /* RegisterDeviceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6190183FEDDF00733E00 /* RegisterDeviceRequest.m */; };
+		43D8746718A47C6C004BC8A1 /* JSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618E183FEDDF00733E00 /* JSONUtilities.m */; };
+		43D8746818A47C6C004BC8A1 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6194183FEDDF00733E00 /* RequestDelegate.m */; };
+		43D8746918A47C6C004BC8A1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61BC1843113600733E00 /* HomeViewController.m */; };
+		43D8746A18A47C6C004BC8A1 /* AmazonClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6178183FEDC600733E00 /* AmazonClientManager.m */; };
+		43D8746B18A47C6C004BC8A1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61A6183FEE0900733E00 /* DataManager.m */; };
+		43D8746C18A47C6C004BC8A1 /* AmazonAnonymousKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6176183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m */; };
+		43D8746D18A47C6C004BC8A1 /* ResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6198183FEDDF00733E00 /* ResponseHandler.m */; };
+		43D8746E18A47C6C004BC8A1 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB881880EDFF0011FA0B /* UserInfo.m */; };
+		43D8746F18A47C6C004BC8A1 /* GetTokenResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618C183FEDDF00733E00 /* GetTokenResponseHandler.m */; };
+		43D8747018A47C6C004BC8A1 /* Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 439053B8185B049B000E814E /* Awesome.m */; };
+		43D8747118A47C6C004BC8A1 /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6186183FEDDF00733E00 /* Crypto.m */; };
+		43D8747218A47C6C004BC8A1 /* VideoSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB75187FC5050011FA0B /* VideoSelectorViewController.m */; };
+		43D8747318A47C6C004BC8A1 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6192183FEDDF00733E00 /* Request.m */; };
+		43D8747418A47C6C004BC8A1 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB78187FC92A0011FA0B /* VideoCell.m */; };
+		43D8747518A47C6C004BC8A1 /* SNSMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA3B187BCC4D004E6284 /* SNSMessenger.m */; };
+		43D8747618A47C6C004BC8A1 /* LocationWDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA311878828C004E6284 /* LocationWDistance.m */; };
+		43D8747718A47C6C004BC8A1 /* VideoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB7F187FF13E0011FA0B /* VideoPreviewController.m */; };
+		43D8747818A47C6C004BC8A1 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C34068184F061600075333 /* Tools.m */; };
+		43D8747918A47C6C004BC8A1 /* BeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C058A1845DCE500859AE3 /* BeamViewController.m */; };
+		43D8747A18A47C6C004BC8A1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61AE183FEE5E00733E00 /* Model.xcdatamodeld */; };
+		43D8747B18A47C6C004BC8A1 /* GetTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618A183FEDDF00733E00 /* GetTokenResponse.m */; };
+		43D8747C18A47C6C004BC8A1 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C0597184655AD00859AE3 /* HistoryCell.m */; };
+		43D8747D18A47C6C004BC8A1 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6170183FEA7900733E00 /* SigninViewController.m */; };
+		43D8747E18A47C6C004BC8A1 /* BTBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C059B184706C300859AE3 /* BTBroadcast.m */; };
+		43D8747F18A47C6C004BC8A1 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC617C183FEDC600733E00 /* Utilities.m */; };
+		43D8748018A47C6C004BC8A1 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384DA2C18729B5F004E6284 /* Location.m */; };
+		43D8748118A47C6C004BC8A1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC617A183FEDC600733E00 /* Constants.m */; };
+		43D8748218A47C6C004BC8A1 /* NearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05801845C87D00859AE3 /* NearbyViewController.m */; };
+		43D8748318A47C6C004BC8A1 /* BTScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C059E1847099400859AE3 /* BTScan.m */; };
+		43D8748418A47C6C004BC8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC612D183F9FB600733E00 /* AppDelegate.m */; };
+		43D8748518A47C6C004BC8A1 /* AWSPersistenceDynamoDBIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C341A71851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.m */; };
+		43D8748618A47C6C004BC8A1 /* NearbyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05831845C8AA00859AE3 /* NearbyCell.m */; };
+		43D8748718A47C6C004BC8A1 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6196183FEDDF00733E00 /* Response.m */; };
+		43D8748818A47C6C004BC8A1 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C05941846504C00859AE3 /* HistoryViewController.m */; };
+		43D8748918A47C6C004BC8A1 /* AmazonWIFKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6174183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43D8748A18A47C6C004BC8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6129183F9FB600733E00 /* main.m */; };
+		43D8748B18A47C6C004BC8A1 /* AmazonTVMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6184183FEDDF00733E00 /* AmazonTVMClient.m */; };
+		43D8748C18A47C6C004BC8A1 /* GetTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6188183FEDDF00733E00 /* GetTokenRequest.m */; };
+		43D8748D18A47C6C004BC8A1 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6158183FA3D200733E00 /* SplashViewController.m */; };
+		43D8748F18A47C6C004BC8A1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECCB9B1881C9E90011FA0B /* FacebookSDK.framework */; };
+		43D8749018A47C6C004BC8A1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECCB7A187FC9FD0011FA0B /* MediaPlayer.framework */; };
+		43D8749118A47C6C004BC8A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C336A187096A200CEB97A /* MapKit.framework */; };
+		43D8749218A47C6C004BC8A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439053BC185E8E6C000E814E /* AVFoundation.framework */; };
+		43D8749318A47C6C004BC8A1 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439053BA185CF900000E814E /* AWSSNS.framework */; };
+		43D8749418A47C6C004BC8A1 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6166183FE86900733E00 /* AWSDynamoDB.framework */; };
+		43D8749518A47C6C004BC8A1 /* AWSPersistence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6167183FE86900733E00 /* AWSPersistence.framework */; };
+		43D8749618A47C6C004BC8A1 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6168183FE86900733E00 /* AWSRuntime.framework */; };
+		43D8749718A47C6C004BC8A1 /* AWSSecurityTokenService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6169183FE86900733E00 /* AWSSecurityTokenService.framework */; };
+		43D8749818A47C6C004BC8A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6164183FE81100733E00 /* Security.framework */; };
+		43D8749918A47C6C004BC8A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6162183FE80B00733E00 /* CoreLocation.framework */; };
+		43D8749A18A47C6C004BC8A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6160183FE80500733E00 /* CoreData.framework */; };
+		43D8749B18A47C6C004BC8A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC611F183F9FB600733E00 /* CoreGraphics.framework */; };
+		43D8749C18A47C6C004BC8A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6121183F9FB600733E00 /* UIKit.framework */; };
+		43D8749D18A47C6C004BC8A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC611D183F9FB600733E00 /* Foundation.framework */; };
+		43D8749F18A47C6C004BC8A1 /* Niners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEBA11883AE9400843F29 /* Niners.jpg */; };
+		43D874A118A47C6C004BC8A1 /* Last Night.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB841883AD7400843F29 /* Last Night.m4v */; };
+		43D874A318A47C6C004BC8A1 /* Love.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB851883AD7400843F29 /* Love.m4v */; };
+		43D874A418A47C6C004BC8A1 /* culver city2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4384DA2E187679B5004E6284 /* culver city2.gpx */; };
+		43D874A518A47C6C004BC8A1 /* Being Single.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB811883AD7400843F29 /* Being Single.m4v */; };
+		43D874A618A47C6C004BC8A1 /* MIddle of Ibiza.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33781870A5B800CEB97A /* MIddle of Ibiza.gpx */; };
+		43D874A718A47C6C004BC8A1 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 439053CA18603BAA000E814E /* spark.png */; };
+		43D874A818A47C6C004BC8A1 /* lizzie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43FC615A183FA63200733E00 /* lizzie.jpg */; };
+		43D874A918A47C6C004BC8A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6138183F9FB600733E00 /* Images.xcassets */; };
+		43D874AB18A47C6C004BC8A1 /* My Girlfriend.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB881883AD7400843F29 /* My Girlfriend.m4v */; };
+		43D874AC18A47C6C004BC8A1 /* spark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 439053C818603085000E814E /* spark2.png */; };
+		43D874AD18A47C6C004BC8A1 /* Glass.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4384DA42187D4374004E6284 /* Glass.caf */; };
+		43D874AE18A47C6C004BC8A1 /* blring.caf in Resources */ = {isa = PBXBuildFile; fileRef = 439053C0185E9107000E814E /* blring.caf */; };
+		43D874AF18A47C6C004BC8A1 /* My Wife.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8B1883AD7400843F29 /* My Wife.m4v */; };
+		43D874B018A47C6C004BC8A1 /* Om.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB9F1883AE8D00843F29 /* Om.jpg */; };
+		43D874B118A47C6C004BC8A1 /* Equality.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB831883AD7400843F29 /* Equality.m4v */; };
+		43D874B218A47C6C004BC8A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6126183F9FB600733E00 /* InfoPlist.strings */; };
+		43D874B318A47C6C004BC8A1 /* Prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43ECCB9D1881CC7B0011FA0B /* Prince.jpg */; };
+		43D874B418A47C6C004BC8A1 /* My Boyfriend.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB871883AD7400843F29 /* My Boyfriend.m4v */; };
+		43D874B518A47C6C004BC8A1 /* Ronnies House.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33761870A5B800CEB97A /* Ronnies House.gpx */; };
+		43D874B618A47C6C004BC8A1 /* My Kids.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8A1883AD7400843F29 /* My Kids.m4v */; };
+		43D874B718A47C6C004BC8A1 /* joaquin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43FC615B183FA63200733E00 /* joaquin.jpg */; };
+		43D874B818A47C6C004BC8A1 /* Barcelona.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 43B2FB5118A376F000BDE325 /* Barcelona.gpx */; };
+		43D874B918A47C6C004BC8A1 /* Glass.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4327B23E1890E68B00125839 /* Glass.m4a */; };
+		43D874BA18A47C6C004BC8A1 /* You.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 43A2550B18640A4B005FA885 /* You.mp4 */; };
+		43D874BB18A47C6C004BC8A1 /* Deep House.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB821883AD7400843F29 /* Deep House.m4v */; };
+		43D874BC18A47C6C004BC8A1 /* Om.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8D1883AD7400843F29 /* Om.m4v */; };
+		43D874BD18A47C6C004BC8A1 /* culver city.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 430C33771870A5B800CEB97A /* culver city.gpx */; };
+		43D874BE18A47C6C004BC8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FC612F183F9FB600733E00 /* Main.storyboard */; };
+		43D874C018A47C6C004BC8A1 /* My Husband.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB891883AD7400843F29 /* My Husband.m4v */; };
+		43DEEB901883AD7400843F29 /* Being Single.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB811883AD7400843F29 /* Being Single.m4v */; };
+		43DEEB911883AD7400843F29 /* Deep House.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB821883AD7400843F29 /* Deep House.m4v */; };
+		43DEEB921883AD7400843F29 /* Equality.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB831883AD7400843F29 /* Equality.m4v */; };
+		43DEEB931883AD7400843F29 /* Last Night.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB841883AD7400843F29 /* Last Night.m4v */; };
+		43DEEB941883AD7400843F29 /* Love.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB851883AD7400843F29 /* Love.m4v */; };
+		43DEEB961883AD7400843F29 /* My Boyfriend.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB871883AD7400843F29 /* My Boyfriend.m4v */; };
+		43DEEB971883AD7400843F29 /* My Girlfriend.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB881883AD7400843F29 /* My Girlfriend.m4v */; };
+		43DEEB981883AD7400843F29 /* My Husband.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB891883AD7400843F29 /* My Husband.m4v */; };
+		43DEEB991883AD7400843F29 /* My Kids.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8A1883AD7400843F29 /* My Kids.m4v */; };
+		43DEEB9A1883AD7400843F29 /* My Wife.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8B1883AD7400843F29 /* My Wife.m4v */; };
+		43DEEB9C1883AD7400843F29 /* Om.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB8D1883AD7400843F29 /* Om.m4v */; };
+		43DEEBA01883AE8D00843F29 /* Om.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEB9F1883AE8D00843F29 /* Om.jpg */; };
+		43DEEBA21883AE9400843F29 /* Niners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43DEEBA11883AE9400843F29 /* Niners.jpg */; };
+		43ECCB76187FC5050011FA0B /* VideoSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB75187FC5050011FA0B /* VideoSelectorViewController.m */; };
+		43ECCB79187FC92A0011FA0B /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB78187FC92A0011FA0B /* VideoCell.m */; };
+		43ECCB7B187FC9FD0011FA0B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECCB7A187FC9FD0011FA0B /* MediaPlayer.framework */; };
+		43ECCB80187FF13E0011FA0B /* VideoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB7F187FF13E0011FA0B /* VideoPreviewController.m */; };
+		43ECCB891880EDFF0011FA0B /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECCB881880EDFF0011FA0B /* UserInfo.m */; };
+		43ECCB9C1881C9E90011FA0B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECCB9B1881C9E90011FA0B /* FacebookSDK.framework */; };
+		43ECCB9E1881CC7B0011FA0B /* Prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43ECCB9D1881CC7B0011FA0B /* Prince.jpg */; };
+		43FC611E183F9FB600733E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC611D183F9FB600733E00 /* Foundation.framework */; };
+		43FC6120183F9FB600733E00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC611F183F9FB600733E00 /* CoreGraphics.framework */; };
+		43FC6122183F9FB600733E00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6121183F9FB600733E00 /* UIKit.framework */; };
+		43FC6128183F9FB600733E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6126183F9FB600733E00 /* InfoPlist.strings */; };
+		43FC612A183F9FB600733E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6129183F9FB600733E00 /* main.m */; };
+		43FC612E183F9FB600733E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC612D183F9FB600733E00 /* AppDelegate.m */; };
+		43FC6131183F9FB600733E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FC612F183F9FB600733E00 /* Main.storyboard */; };
+		43FC6139183F9FB600733E00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6138183F9FB600733E00 /* Images.xcassets */; };
+		43FC6140183F9FB600733E00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC613F183F9FB600733E00 /* XCTest.framework */; };
+		43FC6141183F9FB600733E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC611D183F9FB600733E00 /* Foundation.framework */; };
+		43FC6142183F9FB600733E00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6121183F9FB600733E00 /* UIKit.framework */; };
+		43FC614A183F9FB600733E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6148183F9FB600733E00 /* InfoPlist.strings */; };
+		43FC614C183F9FB600733E00 /* awesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC614B183F9FB600733E00 /* awesomeTests.m */; };
+		43FC6159183FA3D200733E00 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6158183FA3D200733E00 /* SplashViewController.m */; };
+		43FC615C183FA63200733E00 /* lizzie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43FC615A183FA63200733E00 /* lizzie.jpg */; };
+		43FC615D183FA63200733E00 /* joaquin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43FC615B183FA63200733E00 /* joaquin.jpg */; };
+		43FC6161183FE80500733E00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6160183FE80500733E00 /* CoreData.framework */; };
+		43FC6163183FE80B00733E00 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6162183FE80B00733E00 /* CoreLocation.framework */; };
+		43FC6165183FE81100733E00 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6164183FE81100733E00 /* Security.framework */; };
+		43FC616A183FE86A00733E00 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6166183FE86900733E00 /* AWSDynamoDB.framework */; };
+		43FC616B183FE86A00733E00 /* AWSPersistence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6167183FE86900733E00 /* AWSPersistence.framework */; };
+		43FC616C183FE86A00733E00 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6168183FE86900733E00 /* AWSRuntime.framework */; };
+		43FC616D183FE86A00733E00 /* AWSSecurityTokenService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC6169183FE86900733E00 /* AWSSecurityTokenService.framework */; };
+		43FC6171183FEA7900733E00 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6170183FEA7900733E00 /* SigninViewController.m */; };
+		43FC617D183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6174183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43FC617E183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6176183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m */; };
+		43FC617F183FEDC600733E00 /* AmazonClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6178183FEDC600733E00 /* AmazonClientManager.m */; };
+		43FC6180183FEDC600733E00 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC617A183FEDC600733E00 /* Constants.m */; };
+		43FC6181183FEDC600733E00 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC617C183FEDC600733E00 /* Utilities.m */; };
+		43FC6199183FEDDF00733E00 /* AmazonTVMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6184183FEDDF00733E00 /* AmazonTVMClient.m */; };
+		43FC619A183FEDDF00733E00 /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6186183FEDDF00733E00 /* Crypto.m */; };
+		43FC619B183FEDDF00733E00 /* GetTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6188183FEDDF00733E00 /* GetTokenRequest.m */; };
+		43FC619C183FEDDF00733E00 /* GetTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618A183FEDDF00733E00 /* GetTokenResponse.m */; };
+		43FC619D183FEDDF00733E00 /* GetTokenResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618C183FEDDF00733E00 /* GetTokenResponseHandler.m */; };
+		43FC619E183FEDDF00733E00 /* JSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC618E183FEDDF00733E00 /* JSONUtilities.m */; };
+		43FC619F183FEDDF00733E00 /* RegisterDeviceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6190183FEDDF00733E00 /* RegisterDeviceRequest.m */; };
+		43FC61A0183FEDDF00733E00 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6192183FEDDF00733E00 /* Request.m */; };
+		43FC61A1183FEDDF00733E00 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6194183FEDDF00733E00 /* RequestDelegate.m */; };
+		43FC61A2183FEDDF00733E00 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6196183FEDDF00733E00 /* Response.m */; };
+		43FC61A3183FEDDF00733E00 /* ResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC6198183FEDDF00733E00 /* ResponseHandler.m */; };
+		43FC61AB183FEE0900733E00 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61A6183FEE0900733E00 /* DataManager.m */; };
+		43FC61B0183FEE5E00733E00 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61AE183FEE5E00733E00 /* Model.xcdatamodeld */; };
+		43FC61BD1843113600733E00 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC61BC1843113600733E00 /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43FC6143183F9FB600733E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43FC6112183F9FB600733E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43FC6119183F9FB600733E00;
+			remoteInfo = awesome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		430C336A187096A200CEB97A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		430C33761870A5B800CEB97A /* Ronnies House.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Ronnies House.gpx"; sourceTree = "<group>"; };
+		430C33771870A5B800CEB97A /* culver city.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "culver city.gpx"; sourceTree = "<group>"; };
+		430C33781870A5B800CEB97A /* MIddle of Ibiza.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MIddle of Ibiza.gpx"; sourceTree = "<group>"; };
+		4327B23E1890E68B00125839 /* Glass.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glass.m4a; sourceTree = "<group>"; };
+		4384DA2B18729B5F004E6284 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		4384DA2C18729B5F004E6284 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		4384DA2E187679B5004E6284 /* culver city2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "culver city2.gpx"; sourceTree = "<group>"; };
+		4384DA301878828C004E6284 /* LocationWDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationWDistance.h; sourceTree = "<group>"; };
+		4384DA311878828C004E6284 /* LocationWDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationWDistance.m; sourceTree = "<group>"; };
+		4384DA3A187BCC4D004E6284 /* SNSMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSMessenger.h; sourceTree = "<group>"; };
+		4384DA3B187BCC4D004E6284 /* SNSMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSMessenger.m; sourceTree = "<group>"; };
+		4384DA42187D4374004E6284 /* Glass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glass.caf; sourceTree = "<group>"; };
+		438C057F1845C87D00859AE3 /* NearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyViewController.h; sourceTree = "<group>"; };
+		438C05801845C87D00859AE3 /* NearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyViewController.m; sourceTree = "<group>"; };
+		438C05821845C8AA00859AE3 /* NearbyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyCell.h; sourceTree = "<group>"; };
+		438C05831845C8AA00859AE3 /* NearbyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyCell.m; sourceTree = "<group>"; };
+		438C05891845DCE500859AE3 /* BeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamViewController.h; sourceTree = "<group>"; };
+		438C058A1845DCE500859AE3 /* BeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeamViewController.m; sourceTree = "<group>"; };
+		438C05931846504C00859AE3 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		438C05941846504C00859AE3 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		438C0596184655AD00859AE3 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		438C0597184655AD00859AE3 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		438C059A184706C300859AE3 /* BTBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBroadcast.h; sourceTree = "<group>"; };
+		438C059B184706C300859AE3 /* BTBroadcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBroadcast.m; sourceTree = "<group>"; };
+		438C059D1847099400859AE3 /* BTScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScan.h; sourceTree = "<group>"; };
+		438C059E1847099400859AE3 /* BTScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScan.m; sourceTree = "<group>"; };
+		439053B7185B049B000E814E /* Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Awesome.h; sourceTree = "<group>"; };
+		439053B8185B049B000E814E /* Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Awesome.m; sourceTree = "<group>"; };
+		439053BA185CF900000E814E /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = "../aws-ios-sdk-1.7.0/AWSSNS.framework"; sourceTree = "<group>"; };
+		439053BC185E8E6C000E814E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		439053C0185E9107000E814E /* blring.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blring.caf; sourceTree = "<group>"; };
+		439053C818603085000E814E /* spark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark2.png; sourceTree = "<group>"; };
+		439053CA18603BAA000E814E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		43A2550B18640A4B005FA885 /* You.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = You.mp4; sourceTree = "<group>"; };
+		43B2FB5118A376F000BDE325 /* Barcelona.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Barcelona.gpx; sourceTree = "<group>"; };
+		43C34067184F061600075333 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		43C34068184F061600075333 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		43C341A61851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSPersistenceDynamoDBIncrementalStore.h; sourceTree = "<group>"; };
+		43C341A71851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSPersistenceDynamoDBIncrementalStore.m; sourceTree = "<group>"; };
+		43D874C418A47C6C004BC8A1 /* awesome copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "awesome copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D874C518A47C6C004BC8A1 /* awesome copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "awesome copy-Info.plist"; path = "/Users/joaqman/Documents/awesome/awesome copy-Info.plist"; sourceTree = "<absolute>"; };
+		43DEEB811883AD7400843F29 /* Being Single.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Being Single.m4v"; sourceTree = "<group>"; };
+		43DEEB821883AD7400843F29 /* Deep House.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deep House.m4v"; sourceTree = "<group>"; };
+		43DEEB831883AD7400843F29 /* Equality.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Equality.m4v; sourceTree = "<group>"; };
+		43DEEB841883AD7400843F29 /* Last Night.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Last Night.m4v"; sourceTree = "<group>"; };
+		43DEEB851883AD7400843F29 /* Love.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Love.m4v; sourceTree = "<group>"; };
+		43DEEB871883AD7400843F29 /* My Boyfriend.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My Boyfriend.m4v"; sourceTree = "<group>"; };
+		43DEEB881883AD7400843F29 /* My Girlfriend.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My Girlfriend.m4v"; sourceTree = "<group>"; };
+		43DEEB891883AD7400843F29 /* My Husband.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My Husband.m4v"; sourceTree = "<group>"; };
+		43DEEB8A1883AD7400843F29 /* My Kids.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My Kids.m4v"; sourceTree = "<group>"; };
+		43DEEB8B1883AD7400843F29 /* My Wife.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My Wife.m4v"; sourceTree = "<group>"; };
+		43DEEB8D1883AD7400843F29 /* Om.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Om.m4v; sourceTree = "<group>"; };
+		43DEEB9F1883AE8D00843F29 /* Om.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Om.jpg; sourceTree = "<group>"; };
+		43DEEBA11883AE9400843F29 /* Niners.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Niners.jpg; sourceTree = "<group>"; };
+		43ECCB74187FC5050011FA0B /* VideoSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSelectorViewController.h; sourceTree = "<group>"; };
+		43ECCB75187FC5050011FA0B /* VideoSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSelectorViewController.m; sourceTree = "<group>"; };
+		43ECCB77187FC92A0011FA0B /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		43ECCB78187FC92A0011FA0B /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		43ECCB7A187FC9FD0011FA0B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		43ECCB7E187FF13E0011FA0B /* VideoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPreviewController.h; sourceTree = "<group>"; };
+		43ECCB7F187FF13E0011FA0B /* VideoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPreviewController.m; sourceTree = "<group>"; };
+		43ECCB871880EDFF0011FA0B /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		43ECCB881880EDFF0011FA0B /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		43ECCB9B1881C9E90011FA0B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		43ECCB9D1881CC7B0011FA0B /* Prince.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Prince.jpg; sourceTree = "<group>"; };
+		43FC611A183F9FB600733E00 /* awesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43FC611D183F9FB600733E00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43FC611F183F9FB600733E00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43FC6121183F9FB600733E00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43FC6125183F9FB600733E00 /* awesome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awesome-Info.plist"; sourceTree = "<group>"; };
+		43FC6127183F9FB600733E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43FC6129183F9FB600733E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43FC612B183F9FB600733E00 /* awesome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "awesome-Prefix.pch"; sourceTree = "<group>"; };
+		43FC612C183F9FB600733E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43FC612D183F9FB600733E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43FC6130183F9FB600733E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43FC6138183F9FB600733E00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43FC613E183F9FB600733E00 /* awesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = awesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43FC613F183F9FB600733E00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43FC6147183F9FB600733E00 /* awesomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awesomeTests-Info.plist"; sourceTree = "<group>"; };
+		43FC6149183F9FB600733E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43FC614B183F9FB600733E00 /* awesomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = awesomeTests.m; sourceTree = "<group>"; };
+		43FC6157183FA3D200733E00 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		43FC6158183FA3D200733E00 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		43FC615A183FA63200733E00 /* lizzie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lizzie.jpg; sourceTree = "<group>"; };
+		43FC615B183FA63200733E00 /* joaquin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joaquin.jpg; sourceTree = "<group>"; };
+		43FC6160183FE80500733E00 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43FC6162183FE80B00733E00 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		43FC6164183FE81100733E00 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		43FC6166183FE86900733E00 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = "../aws-ios-sdk-1.7.0/AWSDynamoDB.framework"; sourceTree = "<group>"; };
+		43FC6167183FE86900733E00 /* AWSPersistence.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSPersistence.framework; path = "../aws-ios-sdk-1.7.0/AWSPersistence.framework"; sourceTree = "<group>"; };
+		43FC6168183FE86900733E00 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = "../aws-ios-sdk-1.7.0/AWSRuntime.framework"; sourceTree = "<group>"; };
+		43FC6169183FE86900733E00 /* AWSSecurityTokenService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSecurityTokenService.framework; path = "../aws-ios-sdk-1.7.0/AWSSecurityTokenService.framework"; sourceTree = "<group>"; };
+		43FC616F183FEA7900733E00 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		43FC6170183FEA7900733E00 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
+		43FC6173183FEDC600733E00 /* AmazonWIFKeyChainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonWIFKeyChainWrapper.h; sourceTree = "<group>"; };
+		43FC6174183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonWIFKeyChainWrapper.m; sourceTree = "<group>"; };
+		43FC6175183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonAnonymousKeyChainWrapper.h; sourceTree = "<group>"; };
+		43FC6176183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonAnonymousKeyChainWrapper.m; sourceTree = "<group>"; };
+		43FC6177183FEDC600733E00 /* AmazonClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonClientManager.h; sourceTree = "<group>"; };
+		43FC6178183FEDC600733E00 /* AmazonClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonClientManager.m; sourceTree = "<group>"; };
+		43FC6179183FEDC600733E00 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		43FC617A183FEDC600733E00 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		43FC617B183FEDC600733E00 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		43FC617C183FEDC600733E00 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		43FC6183183FEDDF00733E00 /* AmazonTVMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonTVMClient.h; sourceTree = "<group>"; };
+		43FC6184183FEDDF00733E00 /* AmazonTVMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonTVMClient.m; sourceTree = "<group>"; };
+		43FC6185183FEDDF00733E00 /* Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crypto.h; sourceTree = "<group>"; };
+		43FC6186183FEDDF00733E00 /* Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crypto.m; sourceTree = "<group>"; };
+		43FC6187183FEDDF00733E00 /* GetTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTokenRequest.h; sourceTree = "<group>"; };
+		43FC6188183FEDDF00733E00 /* GetTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTokenRequest.m; sourceTree = "<group>"; };
+		43FC6189183FEDDF00733E00 /* GetTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTokenResponse.h; sourceTree = "<group>"; };
+		43FC618A183FEDDF00733E00 /* GetTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTokenResponse.m; sourceTree = "<group>"; };
+		43FC618B183FEDDF00733E00 /* GetTokenResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTokenResponseHandler.h; sourceTree = "<group>"; };
+		43FC618C183FEDDF00733E00 /* GetTokenResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTokenResponseHandler.m; sourceTree = "<group>"; };
+		43FC618D183FEDDF00733E00 /* JSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtilities.h; sourceTree = "<group>"; };
+		43FC618E183FEDDF00733E00 /* JSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtilities.m; sourceTree = "<group>"; };
+		43FC618F183FEDDF00733E00 /* RegisterDeviceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterDeviceRequest.h; sourceTree = "<group>"; };
+		43FC6190183FEDDF00733E00 /* RegisterDeviceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterDeviceRequest.m; sourceTree = "<group>"; };
+		43FC6191183FEDDF00733E00 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		43FC6192183FEDDF00733E00 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		43FC6193183FEDDF00733E00 /* RequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDelegate.h; sourceTree = "<group>"; };
+		43FC6194183FEDDF00733E00 /* RequestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestDelegate.m; sourceTree = "<group>"; };
+		43FC6195183FEDDF00733E00 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		43FC6196183FEDDF00733E00 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		43FC6197183FEDDF00733E00 /* ResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseHandler.h; sourceTree = "<group>"; };
+		43FC6198183FEDDF00733E00 /* ResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseHandler.m; sourceTree = "<group>"; };
+		43FC61A5183FEE0900733E00 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		43FC61A6183FEE0900733E00 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		43FC61AF183FEE5E00733E00 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		43FC61BB1843113600733E00 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		43FC61BC1843113600733E00 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D8748E18A47C6C004BC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D8748F18A47C6C004BC8A1 /* FacebookSDK.framework in Frameworks */,
+				43D8749018A47C6C004BC8A1 /* MediaPlayer.framework in Frameworks */,
+				43D8749118A47C6C004BC8A1 /* MapKit.framework in Frameworks */,
+				43D8749218A47C6C004BC8A1 /* AVFoundation.framework in Frameworks */,
+				43D8749318A47C6C004BC8A1 /* AWSSNS.framework in Frameworks */,
+				43D8749418A47C6C004BC8A1 /* AWSDynamoDB.framework in Frameworks */,
+				43D8749518A47C6C004BC8A1 /* AWSPersistence.framework in Frameworks */,
+				43D8749618A47C6C004BC8A1 /* AWSRuntime.framework in Frameworks */,
+				43D8749718A47C6C004BC8A1 /* AWSSecurityTokenService.framework in Frameworks */,
+				43D8749818A47C6C004BC8A1 /* Security.framework in Frameworks */,
+				43D8749918A47C6C004BC8A1 /* CoreLocation.framework in Frameworks */,
+				43D8749A18A47C6C004BC8A1 /* CoreData.framework in Frameworks */,
+				43D8749B18A47C6C004BC8A1 /* CoreGraphics.framework in Frameworks */,
+				43D8749C18A47C6C004BC8A1 /* UIKit.framework in Frameworks */,
+				43D8749D18A47C6C004BC8A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC6117183F9FB600733E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ECCB9C1881C9E90011FA0B /* FacebookSDK.framework in Frameworks */,
+				43ECCB7B187FC9FD0011FA0B /* MediaPlayer.framework in Frameworks */,
+				430C336B187096A200CEB97A /* MapKit.framework in Frameworks */,
+				439053BD185E8E6C000E814E /* AVFoundation.framework in Frameworks */,
+				439053BB185CF900000E814E /* AWSSNS.framework in Frameworks */,
+				43FC616A183FE86A00733E00 /* AWSDynamoDB.framework in Frameworks */,
+				43FC616B183FE86A00733E00 /* AWSPersistence.framework in Frameworks */,
+				43FC616C183FE86A00733E00 /* AWSRuntime.framework in Frameworks */,
+				43FC616D183FE86A00733E00 /* AWSSecurityTokenService.framework in Frameworks */,
+				43FC6165183FE81100733E00 /* Security.framework in Frameworks */,
+				43FC6163183FE80B00733E00 /* CoreLocation.framework in Frameworks */,
+				43FC6161183FE80500733E00 /* CoreData.framework in Frameworks */,
+				43FC6120183F9FB600733E00 /* CoreGraphics.framework in Frameworks */,
+				43FC6122183F9FB600733E00 /* UIKit.framework in Frameworks */,
+				43FC611E183F9FB600733E00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC613B183F9FB600733E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC6140183F9FB600733E00 /* XCTest.framework in Frameworks */,
+				43FC6142183F9FB600733E00 /* UIKit.framework in Frameworks */,
+				43FC6141183F9FB600733E00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430C33751870A59E00CEB97A /* GPX Locations */ = {
+			isa = PBXGroup;
+			children = (
+				43B2FB5118A376F000BDE325 /* Barcelona.gpx */,
+				430C33761870A5B800CEB97A /* Ronnies House.gpx */,
+				430C33771870A5B800CEB97A /* culver city.gpx */,
+				4384DA2E187679B5004E6284 /* culver city2.gpx */,
+				430C33781870A5B800CEB97A /* MIddle of Ibiza.gpx */,
+			);
+			name = "GPX Locations";
+			sourceTree = "<group>";
+		};
+		4384DA39187BCC25004E6284 /* SNS Message Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4384DA3A187BCC4D004E6284 /* SNSMessenger.h */,
+				4384DA3B187BCC4D004E6284 /* SNSMessenger.m */,
+			);
+			name = "SNS Message Classes";
+			sourceTree = "<group>";
+		};
+		438C057E1845C84800859AE3 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				438C057F1845C87D00859AE3 /* NearbyViewController.h */,
+				438C05801845C87D00859AE3 /* NearbyViewController.m */,
+				438C05821845C8AA00859AE3 /* NearbyCell.h */,
+				438C05831845C8AA00859AE3 /* NearbyCell.m */,
+			);
+			name = Nearby;
+			sourceTree = "<group>";
+		};
+		438C05851845DC4A00859AE3 /* Beam */ = {
+			isa = PBXGroup;
+			children = (
+				438C05891845DCE500859AE3 /* BeamViewController.h */,
+				438C058A1845DCE500859AE3 /* BeamViewController.m */,
+			);
+			name = Beam;
+			sourceTree = "<group>";
+		};
+		438C05921846503200859AE3 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				438C05931846504C00859AE3 /* HistoryViewController.h */,
+				438C05941846504C00859AE3 /* HistoryViewController.m */,
+				438C0596184655AD00859AE3 /* HistoryCell.h */,
+				438C0597184655AD00859AE3 /* HistoryCell.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		438C05991847062300859AE3 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				438C059A184706C300859AE3 /* BTBroadcast.h */,
+				438C059B184706C300859AE3 /* BTBroadcast.m */,
+				438C059D1847099400859AE3 /* BTScan.h */,
+				438C059E1847099400859AE3 /* BTScan.m */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		43C34063184F03E600075333 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				43C34067184F061600075333 /* Tools.h */,
+				43C34068184F061600075333 /* Tools.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		43ECCB70187FC4AA0011FA0B /* Shareing */ = {
+			isa = PBXGroup;
+			children = (
+				43ECCB74187FC5050011FA0B /* VideoSelectorViewController.h */,
+				43ECCB75187FC5050011FA0B /* VideoSelectorViewController.m */,
+				43ECCB77187FC92A0011FA0B /* VideoCell.h */,
+				43ECCB78187FC92A0011FA0B /* VideoCell.m */,
+				43ECCB7E187FF13E0011FA0B /* VideoPreviewController.h */,
+				43ECCB7F187FF13E0011FA0B /* VideoPreviewController.m */,
+			);
+			name = Shareing;
+			sourceTree = "<group>";
+		};
+		43ECCB8A1881C00F0011FA0B /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				43DEEB811883AD7400843F29 /* Being Single.m4v */,
+				43DEEB821883AD7400843F29 /* Deep House.m4v */,
+				43DEEB831883AD7400843F29 /* Equality.m4v */,
+				43DEEB841883AD7400843F29 /* Last Night.m4v */,
+				43DEEB851883AD7400843F29 /* Love.m4v */,
+				43DEEB871883AD7400843F29 /* My Boyfriend.m4v */,
+				43DEEB881883AD7400843F29 /* My Girlfriend.m4v */,
+				43DEEB891883AD7400843F29 /* My Husband.m4v */,
+				43DEEB8A1883AD7400843F29 /* My Kids.m4v */,
+				43DEEB8B1883AD7400843F29 /* My Wife.m4v */,
+				43DEEB8D1883AD7400843F29 /* Om.m4v */,
+				43DEEBA11883AE9400843F29 /* Niners.jpg */,
+				43DEEB9F1883AE8D00843F29 /* Om.jpg */,
+				43ECCB9D1881CC7B0011FA0B /* Prince.jpg */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		43FC6111183F9FB600733E00 = {
+			isa = PBXGroup;
+			children = (
+				43FC6123183F9FB600733E00 /* awesome */,
+				43FC6145183F9FB600733E00 /* awesomeTests */,
+				43FC611C183F9FB600733E00 /* Frameworks */,
+				43FC611B183F9FB600733E00 /* Products */,
+				43D874C518A47C6C004BC8A1 /* awesome copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		43FC611B183F9FB600733E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43FC611A183F9FB600733E00 /* awesome.app */,
+				43FC613E183F9FB600733E00 /* awesomeTests.xctest */,
+				43D874C418A47C6C004BC8A1 /* awesome copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43FC611C183F9FB600733E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43ECCB9B1881C9E90011FA0B /* FacebookSDK.framework */,
+				43ECCB7A187FC9FD0011FA0B /* MediaPlayer.framework */,
+				430C336A187096A200CEB97A /* MapKit.framework */,
+				439053BC185E8E6C000E814E /* AVFoundation.framework */,
+				439053BA185CF900000E814E /* AWSSNS.framework */,
+				43FC6166183FE86900733E00 /* AWSDynamoDB.framework */,
+				43FC6167183FE86900733E00 /* AWSPersistence.framework */,
+				43FC6168183FE86900733E00 /* AWSRuntime.framework */,
+				43FC6169183FE86900733E00 /* AWSSecurityTokenService.framework */,
+				43FC6164183FE81100733E00 /* Security.framework */,
+				43FC6162183FE80B00733E00 /* CoreLocation.framework */,
+				43FC6160183FE80500733E00 /* CoreData.framework */,
+				43FC611D183F9FB600733E00 /* Foundation.framework */,
+				43FC611F183F9FB600733E00 /* CoreGraphics.framework */,
+				43FC6121183F9FB600733E00 /* UIKit.framework */,
+				43FC613F183F9FB600733E00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FC6123183F9FB600733E00 /* awesome */ = {
+			isa = PBXGroup;
+			children = (
+				430C33751870A59E00CEB97A /* GPX Locations */,
+				43C34063184F03E600075333 /* Utilities */,
+				438C05991847062300859AE3 /* Bluetooth */,
+				43FC612C183F9FB600733E00 /* AppDelegate.h */,
+				43FC612D183F9FB600733E00 /* AppDelegate.m */,
+				43FC6172183FEDA300733E00 /* AWS Store */,
+				43FC61A4183FEDEE00733E00 /* Core Data */,
+				4384DA39187BCC25004E6284 /* SNS Message Classes */,
+				43FC6155183FA38C00733E00 /* View */,
+				43ECCB70187FC4AA0011FA0B /* Shareing */,
+				43FC6124183F9FB600733E00 /* Supporting Files */,
+			);
+			path = awesome;
+			sourceTree = "<group>";
+		};
+		43FC6124183F9FB600733E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ECCB8A1881C00F0011FA0B /* Videos */,
+				43A2550B18640A4B005FA885 /* You.mp4 */,
+				439053CA18603BAA000E814E /* spark.png */,
+				439053C818603085000E814E /* spark2.png */,
+				4327B23E1890E68B00125839 /* Glass.m4a */,
+				4384DA42187D4374004E6284 /* Glass.caf */,
+				439053C0185E9107000E814E /* blring.caf */,
+				43FC6125183F9FB600733E00 /* awesome-Info.plist */,
+				43FC6126183F9FB600733E00 /* InfoPlist.strings */,
+				43FC6129183F9FB600733E00 /* main.m */,
+				43FC612B183F9FB600733E00 /* awesome-Prefix.pch */,
+				43FC615A183FA63200733E00 /* lizzie.jpg */,
+				43FC615B183FA63200733E00 /* joaquin.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43FC6145183F9FB600733E00 /* awesomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				43FC614B183F9FB600733E00 /* awesomeTests.m */,
+				43FC6146183F9FB600733E00 /* Supporting Files */,
+			);
+			path = awesomeTests;
+			sourceTree = "<group>";
+		};
+		43FC6146183F9FB600733E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43FC6147183F9FB600733E00 /* awesomeTests-Info.plist */,
+				43FC6148183F9FB600733E00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43FC6155183FA38C00733E00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43FC6138183F9FB600733E00 /* Images.xcassets */,
+				43FC612F183F9FB600733E00 /* Main.storyboard */,
+				43FC6156183FA3AB00733E00 /* Splash */,
+				43FC616E183FEA3900733E00 /* Signin */,
+				43FC61BA1843111500733E00 /* Home */,
+				438C057E1845C84800859AE3 /* Nearby */,
+				438C05851845DC4A00859AE3 /* Beam */,
+				438C05921846503200859AE3 /* History */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43FC6156183FA3AB00733E00 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				43FC6157183FA3D200733E00 /* SplashViewController.h */,
+				43FC6158183FA3D200733E00 /* SplashViewController.m */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		43FC616E183FEA3900733E00 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				43FC616F183FEA7900733E00 /* SigninViewController.h */,
+				43FC6170183FEA7900733E00 /* SigninViewController.m */,
+			);
+			name = Signin;
+			sourceTree = "<group>";
+		};
+		43FC6172183FEDA300733E00 /* AWS Store */ = {
+			isa = PBXGroup;
+			children = (
+				43C341A61851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.h */,
+				43C341A71851977C00075333 /* AWSPersistenceDynamoDBIncrementalStore.m */,
+				43FC6173183FEDC600733E00 /* AmazonWIFKeyChainWrapper.h */,
+				43FC6174183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m */,
+				43FC6175183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.h */,
+				43FC6176183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m */,
+				43FC6177183FEDC600733E00 /* AmazonClientManager.h */,
+				43FC6178183FEDC600733E00 /* AmazonClientManager.m */,
+				43FC6179183FEDC600733E00 /* Constants.h */,
+				43FC617A183FEDC600733E00 /* Constants.m */,
+				43FC617B183FEDC600733E00 /* Utilities.h */,
+				43FC617C183FEDC600733E00 /* Utilities.m */,
+				43FC6182183FEDD500733E00 /* TVM */,
+			);
+			name = "AWS Store";
+			sourceTree = "<group>";
+		};
+		43FC6182183FEDD500733E00 /* TVM */ = {
+			isa = PBXGroup;
+			children = (
+				43FC6183183FEDDF00733E00 /* AmazonTVMClient.h */,
+				43FC6184183FEDDF00733E00 /* AmazonTVMClient.m */,
+				43FC6185183FEDDF00733E00 /* Crypto.h */,
+				43FC6186183FEDDF00733E00 /* Crypto.m */,
+				43FC6187183FEDDF00733E00 /* GetTokenRequest.h */,
+				43FC6188183FEDDF00733E00 /* GetTokenRequest.m */,
+				43FC6189183FEDDF00733E00 /* GetTokenResponse.h */,
+				43FC618A183FEDDF00733E00 /* GetTokenResponse.m */,
+				43FC618B183FEDDF00733E00 /* GetTokenResponseHandler.h */,
+				43FC618C183FEDDF00733E00 /* GetTokenResponseHandler.m */,
+				43FC618D183FEDDF00733E00 /* JSONUtilities.h */,
+				43FC618E183FEDDF00733E00 /* JSONUtilities.m */,
+				43FC618F183FEDDF00733E00 /* RegisterDeviceRequest.h */,
+				43FC6190183FEDDF00733E00 /* RegisterDeviceRequest.m */,
+				43FC6191183FEDDF00733E00 /* Request.h */,
+				43FC6192183FEDDF00733E00 /* Request.m */,
+				43FC6193183FEDDF00733E00 /* RequestDelegate.h */,
+				43FC6194183FEDDF00733E00 /* RequestDelegate.m */,
+				43FC6195183FEDDF00733E00 /* Response.h */,
+				43FC6196183FEDDF00733E00 /* Response.m */,
+				43FC6197183FEDDF00733E00 /* ResponseHandler.h */,
+				43FC6198183FEDDF00733E00 /* ResponseHandler.m */,
+			);
+			name = TVM;
+			sourceTree = "<group>";
+		};
+		43FC61A4183FEDEE00733E00 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				43FC61A5183FEE0900733E00 /* DataManager.h */,
+				43FC61A6183FEE0900733E00 /* DataManager.m */,
+				43FC61AE183FEE5E00733E00 /* Model.xcdatamodeld */,
+				43ECCB871880EDFF0011FA0B /* UserInfo.h */,
+				43ECCB881880EDFF0011FA0B /* UserInfo.m */,
+				4384DA2B18729B5F004E6284 /* Location.h */,
+				4384DA2C18729B5F004E6284 /* Location.m */,
+				4384DA301878828C004E6284 /* LocationWDistance.h */,
+				4384DA311878828C004E6284 /* LocationWDistance.m */,
+				439053B7185B049B000E814E /* Awesome.h */,
+				439053B8185B049B000E814E /* Awesome.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		43FC61BA1843111500733E00 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				43FC61BB1843113600733E00 /* HomeViewController.h */,
+				43FC61BC1843113600733E00 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D8746418A47C6C004BC8A1 /* awesomeMgr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D874C118A47C6C004BC8A1 /* Build configuration list for PBXNativeTarget "awesomeMgr" */;
+			buildPhases = (
+				43D8746518A47C6C004BC8A1 /* Sources */,
+				43D8748E18A47C6C004BC8A1 /* Frameworks */,
+				43D8749E18A47C6C004BC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = awesomeMgr;
+			productName = awesome;
+			productReference = 43D874C418A47C6C004BC8A1 /* awesome copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43FC6119183F9FB600733E00 /* awesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43FC614F183F9FB600733E00 /* Build configuration list for PBXNativeTarget "awesome" */;
+			buildPhases = (
+				43FC6116183F9FB600733E00 /* Sources */,
+				43FC6117183F9FB600733E00 /* Frameworks */,
+				43FC6118183F9FB600733E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = awesome;
+			productName = awesome;
+			productReference = 43FC611A183F9FB600733E00 /* awesome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43FC613D183F9FB600733E00 /* awesomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43FC6152183F9FB600733E00 /* Build configuration list for PBXNativeTarget "awesomeTests" */;
+			buildPhases = (
+				43FC613A183F9FB600733E00 /* Sources */,
+				43FC613B183F9FB600733E00 /* Frameworks */,
+				43FC613C183F9FB600733E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43FC6144183F9FB600733E00 /* PBXTargetDependency */,
+			);
+			name = awesomeTests;
+			productName = awesomeTests;
+			productReference = 43FC613E183F9FB600733E00 /* awesomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43FC6112183F9FB600733E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joaquin Brown";
+				TargetAttributes = {
+					43FC6119183F9FB600733E00 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					43FC613D183F9FB600733E00 = {
+						TestTargetID = 43FC6119183F9FB600733E00;
+					};
+				};
+			};
+			buildConfigurationList = 43FC6115183F9FB600733E00 /* Build configuration list for PBXProject "awesome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 43FC6111183F9FB600733E00;
+			productRefGroup = 43FC611B183F9FB600733E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43FC6119183F9FB600733E00 /* awesome */,
+				43FC613D183F9FB600733E00 /* awesomeTests */,
+				43D8746418A47C6C004BC8A1 /* awesomeMgr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D8749E18A47C6C004BC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D8749F18A47C6C004BC8A1 /* Niners.jpg in Resources */,
+				43D874A118A47C6C004BC8A1 /* Last Night.m4v in Resources */,
+				43D874A318A47C6C004BC8A1 /* Love.m4v in Resources */,
+				43D874A418A47C6C004BC8A1 /* culver city2.gpx in Resources */,
+				43D874A518A47C6C004BC8A1 /* Being Single.m4v in Resources */,
+				43D874A618A47C6C004BC8A1 /* MIddle of Ibiza.gpx in Resources */,
+				43D874A718A47C6C004BC8A1 /* spark.png in Resources */,
+				43D874A818A47C6C004BC8A1 /* lizzie.jpg in Resources */,
+				43D874A918A47C6C004BC8A1 /* Images.xcassets in Resources */,
+				43D874AB18A47C6C004BC8A1 /* My Girlfriend.m4v in Resources */,
+				43D874AC18A47C6C004BC8A1 /* spark2.png in Resources */,
+				43D874AD18A47C6C004BC8A1 /* Glass.caf in Resources */,
+				43D874AE18A47C6C004BC8A1 /* blring.caf in Resources */,
+				43D874AF18A47C6C004BC8A1 /* My Wife.m4v in Resources */,
+				43D874B018A47C6C004BC8A1 /* Om.jpg in Resources */,
+				43D874B118A47C6C004BC8A1 /* Equality.m4v in Resources */,
+				43D874B218A47C6C004BC8A1 /* InfoPlist.strings in Resources */,
+				43D874B318A47C6C004BC8A1 /* Prince.jpg in Resources */,
+				43D874B418A47C6C004BC8A1 /* My Boyfriend.m4v in Resources */,
+				43D874B518A47C6C004BC8A1 /* Ronnies House.gpx in Resources */,
+				43D874B618A47C6C004BC8A1 /* My Kids.m4v in Resources */,
+				43D874B718A47C6C004BC8A1 /* joaquin.jpg in Resources */,
+				43D874B818A47C6C004BC8A1 /* Barcelona.gpx in Resources */,
+				43D874B918A47C6C004BC8A1 /* Glass.m4a in Resources */,
+				43D874BA18A47C6C004BC8A1 /* You.mp4 in Resources */,
+				43D874BB18A47C6C004BC8A1 /* Deep House.m4v in Resources */,
+				43D874BC18A47C6C004BC8A1 /* Om.m4v in Resources */,
+				43D874BD18A47C6C004BC8A1 /* culver city.gpx in Resources */,
+				43D874BE18A47C6C004BC8A1 /* Main.storyboard in Resources */,
+				43D874C018A47C6C004BC8A1 /* My Husband.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC6118183F9FB600733E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DEEBA21883AE9400843F29 /* Niners.jpg in Resources */,
+				43DEEB931883AD7400843F29 /* Last Night.m4v in Resources */,
+				43DEEB941883AD7400843F29 /* Love.m4v in Resources */,
+				4384DA2F187679B5004E6284 /* culver city2.gpx in Resources */,
+				43DEEB901883AD7400843F29 /* Being Single.m4v in Resources */,
+				430C337B1870A5B800CEB97A /* MIddle of Ibiza.gpx in Resources */,
+				439053CB18603BAA000E814E /* spark.png in Resources */,
+				43FC615C183FA63200733E00 /* lizzie.jpg in Resources */,
+				43FC6139183F9FB600733E00 /* Images.xcassets in Resources */,
+				43DEEB971883AD7400843F29 /* My Girlfriend.m4v in Resources */,
+				439053C918603085000E814E /* spark2.png in Resources */,
+				4384DA43187D4E3A004E6284 /* Glass.caf in Resources */,
+				439053C1185E92F6000E814E /* blring.caf in Resources */,
+				43DEEB9A1883AD7400843F29 /* My Wife.m4v in Resources */,
+				43DEEBA01883AE8D00843F29 /* Om.jpg in Resources */,
+				43DEEB921883AD7400843F29 /* Equality.m4v in Resources */,
+				43FC6128183F9FB600733E00 /* InfoPlist.strings in Resources */,
+				43ECCB9E1881CC7B0011FA0B /* Prince.jpg in Resources */,
+				43DEEB961883AD7400843F29 /* My Boyfriend.m4v in Resources */,
+				430C33791870A5B800CEB97A /* Ronnies House.gpx in Resources */,
+				43DEEB991883AD7400843F29 /* My Kids.m4v in Resources */,
+				43FC615D183FA63200733E00 /* joaquin.jpg in Resources */,
+				43B2FB5218A376F000BDE325 /* Barcelona.gpx in Resources */,
+				4327B23F1890FFC200125839 /* Glass.m4a in Resources */,
+				43A2550C18640A4B005FA885 /* You.mp4 in Resources */,
+				43DEEB911883AD7400843F29 /* Deep House.m4v in Resources */,
+				43DEEB9C1883AD7400843F29 /* Om.m4v in Resources */,
+				430C337A1870A5B800CEB97A /* culver city.gpx in Resources */,
+				43FC6131183F9FB600733E00 /* Main.storyboard in Resources */,
+				43DEEB981883AD7400843F29 /* My Husband.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC613C183F9FB600733E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC614A183F9FB600733E00 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D8746518A47C6C004BC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D8746618A47C6C004BC8A1 /* RegisterDeviceRequest.m in Sources */,
+				43D8746718A47C6C004BC8A1 /* JSONUtilities.m in Sources */,
+				43D8746818A47C6C004BC8A1 /* RequestDelegate.m in Sources */,
+				43D8746918A47C6C004BC8A1 /* HomeViewController.m in Sources */,
+				43D8746A18A47C6C004BC8A1 /* AmazonClientManager.m in Sources */,
+				43D8746B18A47C6C004BC8A1 /* DataManager.m in Sources */,
+				43D8746C18A47C6C004BC8A1 /* AmazonAnonymousKeyChainWrapper.m in Sources */,
+				43D8746D18A47C6C004BC8A1 /* ResponseHandler.m in Sources */,
+				43D8746E18A47C6C004BC8A1 /* UserInfo.m in Sources */,
+				43D8746F18A47C6C004BC8A1 /* GetTokenResponseHandler.m in Sources */,
+				43D8747018A47C6C004BC8A1 /* Awesome.m in Sources */,
+				43D8747118A47C6C004BC8A1 /* Crypto.m in Sources */,
+				43D8747218A47C6C004BC8A1 /* VideoSelectorViewController.m in Sources */,
+				43D8747318A47C6C004BC8A1 /* Request.m in Sources */,
+				43D8747418A47C6C004BC8A1 /* VideoCell.m in Sources */,
+				43D8747518A47C6C004BC8A1 /* SNSMessenger.m in Sources */,
+				43D8747618A47C6C004BC8A1 /* LocationWDistance.m in Sources */,
+				43D8747718A47C6C004BC8A1 /* VideoPreviewController.m in Sources */,
+				43D8747818A47C6C004BC8A1 /* Tools.m in Sources */,
+				43D8747918A47C6C004BC8A1 /* BeamViewController.m in Sources */,
+				43D8747A18A47C6C004BC8A1 /* Model.xcdatamodeld in Sources */,
+				43D8747B18A47C6C004BC8A1 /* GetTokenResponse.m in Sources */,
+				43D8747C18A47C6C004BC8A1 /* HistoryCell.m in Sources */,
+				43D8747D18A47C6C004BC8A1 /* SigninViewController.m in Sources */,
+				43D8747E18A47C6C004BC8A1 /* BTBroadcast.m in Sources */,
+				43D8747F18A47C6C004BC8A1 /* Utilities.m in Sources */,
+				43D8748018A47C6C004BC8A1 /* Location.m in Sources */,
+				43D8748118A47C6C004BC8A1 /* Constants.m in Sources */,
+				43D8748218A47C6C004BC8A1 /* NearbyViewController.m in Sources */,
+				43D8748318A47C6C004BC8A1 /* BTScan.m in Sources */,
+				43D8748418A47C6C004BC8A1 /* AppDelegate.m in Sources */,
+				43D8748518A47C6C004BC8A1 /* AWSPersistenceDynamoDBIncrementalStore.m in Sources */,
+				43D8748618A47C6C004BC8A1 /* NearbyCell.m in Sources */,
+				43D8748718A47C6C004BC8A1 /* Response.m in Sources */,
+				43D8748818A47C6C004BC8A1 /* HistoryViewController.m in Sources */,
+				43D8748918A47C6C004BC8A1 /* AmazonWIFKeyChainWrapper.m in Sources */,
+				43D8748A18A47C6C004BC8A1 /* main.m in Sources */,
+				43D8748B18A47C6C004BC8A1 /* AmazonTVMClient.m in Sources */,
+				43D8748C18A47C6C004BC8A1 /* GetTokenRequest.m in Sources */,
+				43D8748D18A47C6C004BC8A1 /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC6116183F9FB600733E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC619F183FEDDF00733E00 /* RegisterDeviceRequest.m in Sources */,
+				43FC619E183FEDDF00733E00 /* JSONUtilities.m in Sources */,
+				43FC61A1183FEDDF00733E00 /* RequestDelegate.m in Sources */,
+				43FC61BD1843113600733E00 /* HomeViewController.m in Sources */,
+				43FC617F183FEDC600733E00 /* AmazonClientManager.m in Sources */,
+				43FC61AB183FEE0900733E00 /* DataManager.m in Sources */,
+				43FC617E183FEDC600733E00 /* AmazonAnonymousKeyChainWrapper.m in Sources */,
+				43FC61A3183FEDDF00733E00 /* ResponseHandler.m in Sources */,
+				43ECCB891880EDFF0011FA0B /* UserInfo.m in Sources */,
+				43FC619D183FEDDF00733E00 /* GetTokenResponseHandler.m in Sources */,
+				439053B9185B049B000E814E /* Awesome.m in Sources */,
+				43FC619A183FEDDF00733E00 /* Crypto.m in Sources */,
+				43ECCB76187FC5050011FA0B /* VideoSelectorViewController.m in Sources */,
+				43FC61A0183FEDDF00733E00 /* Request.m in Sources */,
+				43ECCB79187FC92A0011FA0B /* VideoCell.m in Sources */,
+				4384DA3C187BCC4D004E6284 /* SNSMessenger.m in Sources */,
+				4384DA321878828C004E6284 /* LocationWDistance.m in Sources */,
+				43ECCB80187FF13E0011FA0B /* VideoPreviewController.m in Sources */,
+				43C34069184F061600075333 /* Tools.m in Sources */,
+				438C058B1845DCE500859AE3 /* BeamViewController.m in Sources */,
+				43FC61B0183FEE5E00733E00 /* Model.xcdatamodeld in Sources */,
+				43FC619C183FEDDF00733E00 /* GetTokenResponse.m in Sources */,
+				438C0598184655AD00859AE3 /* HistoryCell.m in Sources */,
+				43FC6171183FEA7900733E00 /* SigninViewController.m in Sources */,
+				438C059C184706C300859AE3 /* BTBroadcast.m in Sources */,
+				43FC6181183FEDC600733E00 /* Utilities.m in Sources */,
+				4384DA2D18729B5F004E6284 /* Location.m in Sources */,
+				43FC6180183FEDC600733E00 /* Constants.m in Sources */,
+				438C05811845C87E00859AE3 /* NearbyViewController.m in Sources */,
+				438C059F1847099400859AE3 /* BTScan.m in Sources */,
+				43FC612E183F9FB600733E00 /* AppDelegate.m in Sources */,
+				438252A2185AEAE1005F25F8 /* AWSPersistenceDynamoDBIncrementalStore.m in Sources */,
+				438C05841845C8AA00859AE3 /* NearbyCell.m in Sources */,
+				43FC61A2183FEDDF00733E00 /* Response.m in Sources */,
+				438C05951846504C00859AE3 /* HistoryViewController.m in Sources */,
+				43FC617D183FEDC600733E00 /* AmazonWIFKeyChainWrapper.m in Sources */,
+				43FC612A183F9FB600733E00 /* main.m in Sources */,
+				43FC6199183FEDDF00733E00 /* AmazonTVMClient.m in Sources */,
+				43FC619B183FEDDF00733E00 /* GetTokenRequest.m in Sources */,
+				43FC6159183FA3D200733E00 /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FC613A183F9FB600733E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC614C183F9FB600733E00 /* awesomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43FC6144183F9FB600733E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43FC6119183F9FB600733E00 /* awesome */;
+			targetProxy = 43FC6143183F9FB600733E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43FC6126183F9FB600733E00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43FC6127183F9FB600733E00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43FC612F183F9FB600733E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43FC6130183F9FB600733E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43FC6148183F9FB600733E00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43FC6149183F9FB600733E00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D874C218A47C6C004BC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joaquin Brown (A9R8V54H5J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joaquin Brown (A9R8V54H5J)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joaqman/Documents/FacebookSDK,
+					"/Users/joaqman/Documents/aws-ios-sdk-1.7.0",
+					/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				INFOPLIST_FILE = "awesome copy-Info.plist";
+				PRODUCT_NAME = "awesome copy";
+				PROVISIONING_PROFILE = "127C8B52-6FFF-4AA7-A013-152EA2C409BE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43D874C318A47C6C004BC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Joaquin Brown (Q352RBRHUM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joaquin Brown (Q352RBRHUM)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joaqman/Documents/FacebookSDK,
+					"/Users/joaqman/Documents/aws-ios-sdk-1.7.0",
+					/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				INFOPLIST_FILE = "awesome copy-Info.plist";
+				PRODUCT_NAME = "awesome copy";
+				PROVISIONING_PROFILE = "E1CF211F-7064-4E83-AF0D-809FD590EE03";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43FC614D183F9FB600733E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43FC614E183F9FB600733E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43FC6150183F9FB600733E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joaquin Brown (A9R8V54H5J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joaquin Brown (A9R8V54H5J)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joaqman/Documents/FacebookSDK,
+					"/Users/joaqman/Documents/aws-ios-sdk-1.7.0",
+					/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				INFOPLIST_FILE = "awesome/awesome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "127C8B52-6FFF-4AA7-A013-152EA2C409BE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43FC6151183F9FB600733E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Joaquin Brown (Q352RBRHUM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joaquin Brown (Q352RBRHUM)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joaqman/Documents/FacebookSDK,
+					"/Users/joaqman/Documents/aws-ios-sdk-1.7.0",
+					/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				INFOPLIST_FILE = "awesome/awesome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E1CF211F-7064-4E83-AF0D-809FD590EE03";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43FC6153183F9FB600733E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/awesome.app/awesome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "awesomeTests/awesomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43FC6154183F9FB600733E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/awesome.app/awesome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "awesome/awesome-Prefix.pch";
+				INFOPLIST_FILE = "awesomeTests/awesomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D874C118A47C6C004BC8A1 /* Build configuration list for PBXNativeTarget "awesomeMgr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D874C218A47C6C004BC8A1 /* Debug */,
+				43D874C318A47C6C004BC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43FC6115183F9FB600733E00 /* Build configuration list for PBXProject "awesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FC614D183F9FB600733E00 /* Debug */,
+				43FC614E183F9FB600733E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43FC614F183F9FB600733E00 /* Build configuration list for PBXNativeTarget "awesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FC6150183F9FB600733E00 /* Debug */,
+				43FC6151183F9FB600733E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43FC6152183F9FB600733E00 /* Build configuration list for PBXNativeTarget "awesomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FC6153183F9FB600733E00 /* Debug */,
+				43FC6154183F9FB600733E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43FC61AE183FEE5E00733E00 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43FC61AF183FEE5E00733E00 /* Model.xcdatamodel */,
+			);
+			currentVersion = 43FC61AF183FEE5E00733E00 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43FC6112183F9FB600733E00 /* Project object */;
+}
